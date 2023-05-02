@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+    <div class="loginbox">
+    <form  id="myForm"  onsubmit="return validateForm()">
+    <h2>College Academia</h2><br><br>
+    <h2>Application Form</h2>  
+            
+
+            <p >First Name </p>
+            <input type="text" name="fname"  id="name" placeholder="Enter name" ><br><br>
+        
+            <p>Last Name</p>
+            <input type="text" name="lastname" placeholder="Enter name"><br><br>
+            <p> Gender</p>
+            <div class="m1">
+                        <input type="radio"  value="male"  >Male&nbsp;&nbsp;
+                        <input type="radio"  value="female">Female <br><br>
+                </div>
+            <p>Email</p>
+                   <input type="email"  name="email" placeholder="Enter E-mail"><br><br>
+            <p>D.O.B</p>
+                    <input type="date"><br><br>
+                
+            <p>Board </p>
+            
+                    <select name="Board" >
+                        <option value="None">None</option>
+                        <option value="Stateboard">Stateboard</option>
+                        <option value="CBSE">CBSE</option>
+                        <option value="ICSE">ICSE</option>
+                        <option value="IB">IB</option>
+                    </select><br><br>
+                
+            <p>EMI'S</p>
+                    <input type="password" name="place" placeholder="Enter EMIS" ><br><br>
+            <p>Courses</p>
+            <div class="m3">
+                    <input type="checkbox"  >CSE&nbsp;&nbsp;
+                    <input type="checkbox" >MECH&nbsp;&nbsp;
+                    <input type="checkbox" >IT&nbsp;&nbsp;
+                    <input type="checkbox" >AIDS&nbsp;&nbsp;
+                    <input type="checkbox" > CSBS&nbsp;&nbsp;
+                    <input type="checkbox" >AIML&nbsp;&nbsp;
+                    <input type="checkbox" >ECE&nbsp;&nbsp;
+                    <input type="checkbox" >EEE &nbsp;&nbsp;
+                    <input type="checkbox" >CIVIL&nbsp;&nbsp;
+                    <br><br>
+                    </div>
+           <p>Emergency Contact</p>
+           <input type="tel"  pattern="[0-9]*"placeholder="Enter Your Number" name="num"><br><br>
+           <p>Mother's Name</p>
+           <input type="text"placeholder="Enter Mother'sname"><br><br>
+           <p>Father's Name</p>
+           <input type="text" placeholder="Enter Father'sname"><br><br>
+           <p>Mother's Tongue</p>
+           <div class="m3">
+           <input type="radio" value="tamil">Tamil&nbsp;&nbsp;
+           <input type="radio" value="telugu">Telugu&nbsp;&nbsp;
+           <input type="radio" value="hindi">Hindi&nbsp;&nbsp;
+           <input type="radio" value="malyalam">Malyalam&nbsp;&nbsp;
+           <input type="radio" value="Other">Other <br><br>
+           </div>
+           <p>Adhar Card No</p>
+           <input type="password" placeholder="Enter Adhar number"><br><br>
+           <p>Caste</p>
+           <input type="text"  placeholder="Enter caste"><br><br>
+           <p>10th Mark</p><br>
+           <p>English</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Language</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Science</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Social</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Maths</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+          <p>12th Mark</p><br>
+           <p>English</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Physics</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Chemistry</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Maths</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Computer Science/Biology</p>
+           <input type="number"placeholder="Enter mark"><br><br>
+           <p>Cutoff</p>
+           <input type="number"placeholder="Enter cutoff" name="cutoff"><br><br>
+           <p>Address</p>
+           <textarea name="address" id="" cols="50" rows="7"placeholder="Enter address"></textarea>
+           <br>
+           <input type="submit" name="" value="Submit">
+        </div>
+        </div>
+
+
+           
+
+    </form>
+</body>
+</html>

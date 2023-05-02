@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+   width: 100%;
+   height: 100vh;
+   color: #fff;
+   background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6B5,#23D5AB);
+   background-size: 800% 800%;
+   position: relative;
+   animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+
+    }
+    50%
+    {
+        background-position: 100% 50%;
+    }
+    100%
+    {
+        background-position: 0 50%;
+    }
+    
+}
+div.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    color: #000;
+
+}
+div.loginbox{
+    background-color: #f5cd05;
+    width: 800px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    border: 1px solid rgba(255,255,255,0.3);
+    color :#fff;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-0.5%);
+
+}
+.loginbox form{
+    margin: 50px;
+}
+.loginbox p{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: bold;
+    color: #000;
+    
+    
+
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #fb252f;
+    border-radius: 20px;
+    width: 190px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+
+}
+.loginbox input[type="text"],textarea,input[type="password"],input[type="date"],select
+{
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: 3px solid #c4080e ;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    color:#000;
+    margin: 10px, 0;
+    padding: 10px;
+    font :bold;
+    
+}
+.loginbox input[type="email"],input[type="number"],input[type="tel"]
+{
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border: 3px solid #c4080e ;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    color:#000;
+    margin: 10px, 0;
+    padding: 10px
+    
+}
+.m1 
+{
+    color: #000;
+    font-size: 20px;
+    font-style: bold;
+}
+.m3
+{
+    color: #000;
+    font-size: 20px;
+    font-style: bold;   
+}
